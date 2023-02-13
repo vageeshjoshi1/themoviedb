@@ -1,0 +1,41 @@
+.all-movies-screen {
+  background-color: #000;
+  text-align: center;
+  padding-top: 16px;
+  .row {
+    width: 100%;
+  }
+  .logout-button {
+    margin-top: 0;
+    color: #FFF;
+    background-color: transparent;
+    border: none;
+  }
+  .row {
+    margin-top: 16px;
+  }
+  .col {
+    padding: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .loading {
+    color: #fff;
+    padding-bottom: 40px;
+  }
+  .btn-primary {
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  .card {
+    width: 80%;
+  }
+  .header {
+    display: flex;
+    justify-content: flex-end;
+    .language-field {
+      width: auto;
+    }
+  }
+}
